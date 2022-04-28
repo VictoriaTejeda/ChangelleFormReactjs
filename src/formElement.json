@@ -1,0 +1,59 @@
+[
+    {
+        "pageLabel":"Completa el formulario",
+        "fields": [
+            {
+                "label": "Nombre",
+                "placeholder":"Escribe tu Nombre",
+                "type": "text",
+                "id": "name",
+                "mandatory":true,
+                "value":""
+            },
+            {
+                "label": "Email",
+                "placeholder":"Ejemplo@ejemplo.com",
+                "type": "text",
+                "id": "email",
+                "mandatory":true,
+                "value":""
+            },
+            {
+                "label": "Genero",
+                "id": "gender",
+                "mandatory":true,
+                "value":"gender",
+                "options":[
+                    {
+                        "options-label":"Femenino"
+                    },
+                    {
+                        "options-label":"Masculino"
+                    },
+                    {
+                        "options-label":"Otro"
+                    }
+                ],
+                "type":"select"
+            },
+            {
+                "label": "Tus Intereses",
+                "id": "interests",
+                "mandatory":true,
+                "value":"yourinterests",
+                "options":[
+                    {
+                        "options-label":"Música"
+                    },
+                    {
+                        "options-label":"Cine"
+                    },
+                    {
+                        "options-label":"Teatro"
+                    }
+                ],
+                "type":"radio"
+            }
+        ]
+    }
+]
